@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.c6c11ab4.css",
-    "main.js": "./static/js/main.7362c2ed.js",
+    "main.css": "./static/css/main.7f8ec941.css",
+    "main.js": "./static/js/main.56abfa38.js",
     "static/media/portfolio.gif": "./static/media/portfolio.ed6c89f1485f23014ebd.gif",
     "static/media/fa-solid-900.svg": "./static/media/fa-solid-900.9688960b47a1dba9f738.svg",
     "static/media/fa-brands-400.svg": "./static/media/fa-brands-400.9f40e9f9fc68ce4849e4.svg",
@@ -51,7 +51,7 @@
     "static/media/googleAssistant.jpg": "./static/media/googleAssistant.547075a751cc15673246.jpg",
     "static/media/projects_image.svg": "./static/media/projects_image.0a8062569966b4888c7c.svg",
     "static/media/secc-logo.jpg": "./static/media/secc-logo.f191fa72e2c334dae628.jpg",
-    "static/media/programmer.svg": "./static/media/programmer.d3060f7bf0527835d72eb2b6c2f74ad3.svg",
+    "static/media/programmer.svg": "./static/media/programmer.05aa022169ccd7994ac255e960f18189.svg",
     "static/media/jsFramework.svg": "./static/media/jsFramework.911c595a22a28c7b6f78.svg",
     "static/media/address_image.svg": "./static/media/address_image.3385d92e5e426e57a5b1.svg",
     "static/media/pwa.png": "./static/media/pwa.5107022416df1293dd12.png",
@@ -72,11 +72,11 @@
     "static/media/talksCardBackAlt.svg": "./static/media/talksCardBackAlt.018d87225926eee9ccc3.svg",
     "static/media/talksCardBack.svg": "./static/media/talksCardBack.7dc8695e60efbc2baab8.svg",
     "static/media/secc-logo.ico": "./static/media/secc-logo.31d6cfe0d16ae931b73c.ico",
-    "main.c6c11ab4.css.map": "./static/css/main.c6c11ab4.css.map",
-    "main.7362c2ed.js.map": "./static/js/main.7362c2ed.js.map"
+    "main.7f8ec941.css.map": "./static/css/main.7f8ec941.css.map",
+    "main.56abfa38.js.map": "./static/js/main.56abfa38.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6c11ab4.css",
-    "static/js/main.7362c2ed.js"
+    "static/css/main.7f8ec941.css",
+    "static/js/main.56abfa38.js"
   ]
 }
