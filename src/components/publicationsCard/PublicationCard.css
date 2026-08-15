@@ -1,10 +1,54 @@
 .publication-card-div {
+  position: relative;
   color: rgb(88, 96, 105);
   background-color: rgb(255, 255, 255);
   box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
   padding: 2rem;
   cursor: pointer;
   flex: 1 1 25%;
+}
+
+.publication-card-content:focus {
+  outline: 3px solid #6c63ff;
+  outline-offset: 6px;
+}
+
+.publication-preview {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 12px);
+  z-index: 300;
+  width: 250px;
+  padding: 8px;
+  border: 1px solid #d9dbdf;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, 6px);
+  transition: opacity 160ms ease, transform 160ms ease;
+}
+
+.publication-preview img {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.publication-preview span {
+  display: block;
+  margin-top: 7px;
+  color: #343a40;
+  font-family: "Google Sans Regular";
+  font-size: 12px;
+  text-align: center;
+}
+
+.publication-card-div:hover .publication-preview,
+.publication-card-div:focus-within .publication-preview {
+  opacity: 1;
+  transform: translate(-50%, 0);
 }
 .publication-card-div:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
@@ -13,6 +57,16 @@
 .publication-name-div {
   display: flex;
   align-items: center;
+}
+
+.publication-poster {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 18px;
+  border: 1px solid #d9dbdf;
+  border-radius: 7px;
+  object-fit: contain;
 }
 
 .publication-name {
@@ -38,6 +92,14 @@
   margin-top: 0.8rem;
 }
 
+.publication-venue {
+  margin: 12px 0 0;
+  font-family: "Google Sans Medium";
+  font-size: 14px;
+  line-height: 1.45;
+  text-align: left;
+}
+
 .publication-details {
   display: flex;
   flex-direction: row;
@@ -49,6 +111,13 @@
   font-weight: 400;
   margin-left: 0px;
   margin-right: auto;
+}
+
+.publication-document-label {
+  margin: 10px 0 0;
+  font-family: "Google Sans Regular";
+  font-size: 13px;
+  text-align: left;
 }
 
 @media (max-width: 1200px) {

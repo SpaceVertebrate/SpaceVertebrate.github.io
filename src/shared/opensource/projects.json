@@ -1,124 +1,122 @@
 {
-  "data": [
-    {
-      "id": "R_kgDOJWL0-g",
-      "name": "mdp-diffusion",
-      "createdAt": "2023-04-13T04:18:19Z",
-      "url": "https://github.com/ashutosh1919/mdp-diffusion",
-      "description": "Text-guided image editing by manipulating diffusion path without any training.",
-      "isFork": false,
-      "languages": [
+    "data": [
         {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
-        },
-        {
-          "name": "Jupyter Notebook",
-          "iconifyClass": "logos-jupyter"
-        }
-      ]
-    },
-    {
-      "id": "R_kgDOG_vYHA",
-      "name": "explainable-cnn",
-      "createdAt": "2022-03-13T20:41:33Z",
-      "url": "https://github.com/ashutosh1919/explainable-cnn",
-      "description": "📦 PyTorch based visualization package for generating layer-wise explanations for CNNs.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "masterPortfolio",
-      "createdAt": "2020-03-06T16:26:54Z",
-      "url": "https://github.com/ashutosh1919/masterPortfolio",
-      "description": "🔥 The Complete Customizable Software Developer Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "Dockerfile",
-          "iconifyClass": "simple-icons:docker"
-        }
-      ]
-    },
-    {
-      "id": "R_kgDOG0_8uQ",
-      "name": "react-awesome-shapes",
-      "createdAt": "2022-02-11T14:50:20Z",
-      "url": "https://github.com/ashutosh1919/react-awesome-shapes",
-      "description": "🌀 Insert Awesome Shapes into Your React Site with Ease.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        }
-      ]
-    },
-    {
-      "id": "R_kgDOGcPKSQ",
-      "name": "neuro-symbolic-sudoku-solver",
-      "createdAt": "2021-11-26T17:56:07Z",
-      "url": "https://github.com/ashutosh1919/neuro-symbolic-sudoku-solver",
-      "description": "⚙️ Solving sudoku using Deep Reinforcement learning in combination with powerful symbolic representations.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
-      "name": "react-liquidswipe",
-      "createdAt": "2021-01-01T08:31:51Z",
-      "url": "https://github.com/ashutosh1919/react-liquidswipe",
-      "description": "🚀 Smooth Liquid Swipe Animation to transition between different components.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        }
-      ]
-    }
-  ]
-}
+            "id": "708306667",
+            "name": "Scientificial-Calculator",
+            "createdAt": "2023-10-22T06:41:13Z",
+            "url": "https://github.com/SpaceVertebrate/Scientific-Calculator",
+            "description": "A scientific calculator implemented in C.",
+            "isFork": false,
+            "languages": [
+              {
+                "name": "C",
+                "iconifyClass": "logos-c"
+              }
+            ]
+          },
+          {
+            "id": "708308615",
+            "name": "Sudoku-Game",
+            "createdAt": "2023-10-22T06:50:02Z",
+            "url": "https://github.com/SpaceVertebrate/Sudoku-Game",
+            "description": "An advanced Sudoku game developed in C++ that offers various difficulty levels and a robust user interface to enhance gameplay experience. It includes features like automatic error detection, hints, and the ability to save and load game states.",  
+            "isFork": false,
+            "languages": [
+              {
+                "name": "C++",
+                "iconifyClass": "logos-c-plusplus"
+              }
+            ]
+          },
+          {
+            "id": "812152346",
+            "name": "self-kiosk-app",
+            "createdAt": "2024-06-08T05:14:28Z",
+            "url": "https://github.com/SpaceVertebrate/self-kiosk-app",
+            "description": "A self-service kiosk app developed in Java, enabling automated processes and interactive services for users in public spaces like malls, airports, and stations.",
+            "isFork": false,
+            "languages": [
+              {
+                "name": "Java",
+                "iconifyClass": "logos-java"
+              }
+            ]
+          },
+          {
+            "id": "concept-01", "name": "RetailPulse - Demand Forecasting Platform", "createdAt": "2026-08-13T00:00:00Z", "url": "#", "isConcept": true,
+            "description": "Concept for a retail forecasting platform that combines sales data, seasonality, and promotion signals to help teams plan inventory and reduce stockouts.",
+            "languages": [{"name": "Python", "iconifyClass": "logos-python"}, {"name": "Power BI", "iconifyClass": "logos-microsoft-power-bi"}]
+          },
+          {
+            "id": "concept-02", "name": "CareShield - PHI Redaction Service", "createdAt": "2026-08-13T00:00:00Z", "url": "#", "isConcept": true,
+            "description": "Concept for a privacy-first API that detects and redacts sensitive health information from clinical notes and documents before data sharing.",
+            "languages": [{"name": "Python", "iconifyClass": "logos-python"}, {"name": "NLP", "iconifyClass": "simple-icons:huggingface"}]
+          },
+          {
+            "id": "concept-03", "name": "FleetSense - IoT Anomaly Monitor", "createdAt": "2026-08-13T00:00:00Z", "url": "#", "isConcept": true,
+            "description": "Concept for real-time fleet telemetry monitoring with anomaly alerts, operational dashboards, and predictive maintenance insights.",
+            "languages": [{"name": "C#/.NET", "iconifyClass": "devicon:csharp"}, {"name": "Azure", "iconifyClass": "logos-microsoft-azure"}]
+          },
+          {
+            "id": "concept-04", "name": "TalentMatch - Resume Intelligence", "createdAt": "2026-08-13T00:00:00Z", "url": "#", "isConcept": true,
+            "description": "Concept for an AI-assisted recruitment workspace that extracts skills, matches candidates to roles, and explains ranking decisions.",
+            "languages": [{"name": "React", "iconifyClass": "logos-react"}, {"name": "Transformers", "iconifyClass": "simple-icons:huggingface"}]
+          },
+          {
+            "id": "concept-05", "name": "CivicConnect - Community Services Hub", "createdAt": "2026-08-13T00:00:00Z", "url": "#", "isConcept": true,
+            "description": "Concept for a secure community-services portal that centralizes referrals, appointment workflows, multilingual support, and outcome reporting.",
+            "languages": [{"name": "PHP", "iconifyClass": "logos-php"}, {"name": "MySQL", "iconifyClass": "logos-mysql"}]
+          },
+          {
+            "id": "concept-06", "name": "SpendWise - Small Business Analytics", "createdAt": "2026-08-13T00:00:00Z", "url": "#", "isConcept": true,
+            "description": "Concept for a financial analytics dashboard that categorizes expenses, forecasts cash flow, and highlights margin-improvement opportunities.",
+            "languages": [{"name": "React", "iconifyClass": "logos-react"}, {"name": "SQL", "iconifyClass": "logos-mysql"}]
+          },
+          {
+            "id": "concept-07", "name": "VisionInspect - Quality Control AI", "createdAt": "2026-08-13T00:00:00Z", "url": "#", "isConcept": true,
+            "description": "Concept for a computer-vision inspection system that flags visual defects, tracks confidence scores, and routes exceptions for review.",
+            "languages": [{"name": "PyTorch", "iconifyClass": "simple-icons:pytorch"}, {"name": "OpenCV", "iconifyClass": "simple-icons:opencv"}]
+          },
+          {
+            "id": "concept-08", "name": "QueryPilot - Database Performance Lab", "createdAt": "2026-08-13T00:00:00Z", "url": "#", "isConcept": true,
+            "description": "Concept for a database observability tool that compares execution plans, benchmarks indexes, and recommends query optimizations.",
+            "languages": [{"name": "Oracle", "iconifyClass": "logos-oracle"}, {"name": "MySQL", "iconifyClass": "logos-mysql"}]
+          },
+          {
+            "id": "concept-09", "name": "SecureDocs - Encrypted Collaboration", "createdAt": "2026-08-13T00:00:00Z", "url": "#", "isConcept": true,
+            "description": "Concept for encrypted document sharing with role-based access, one-time passcodes, audit trails, and secure expiration policies.",
+            "languages": [{"name": "Node.js", "iconifyClass": "logos-nodejs-icon"}, {"name": "Security", "iconifyClass": "mdi:shield-lock"}]
+          },
+          {
+            "id": "concept-10", "name": "CampusFlow - Student Success Portal", "createdAt": "2026-08-13T00:00:00Z", "url": "#", "isConcept": true,
+            "description": "Concept for a student platform that brings course planning, academic alerts, mentor booking, and personalized resource recommendations together.",
+            "languages": [{"name": "Java", "iconifyClass": "logos-java"}, {"name": "React", "iconifyClass": "logos-react"}]
+          },
+          {
+            "id": "concept-11", "name": "RouteGreen - Delivery Optimization", "createdAt": "2026-08-13T00:00:00Z", "url": "#", "isConcept": true,
+            "description": "Concept for a route-planning engine that balances delivery windows, fleet capacity, fuel cost, and carbon-impact targets.",
+            "languages": [{"name": "Python", "iconifyClass": "logos-python"}, {"name": "Maps", "iconifyClass": "logos-google-maps"}]
+          },
+          {
+            "id": "concept-12", "name": "InsightOps - Executive KPI Workspace", "createdAt": "2026-08-13T00:00:00Z", "url": "#", "isConcept": true,
+            "description": "Concept for an executive dashboard that unifies operational KPIs, alerts, data-quality checks, and drill-down reporting.",
+            "languages": [{"name": "Power BI", "iconifyClass": "logos-microsoft-power-bi"}, {"name": "Azure", "iconifyClass": "logos-microsoft-azure"}]
+          },
+          {
+            "id": "concept-13", "name": "DevGuard - CI/CD Security Scanner", "createdAt": "2026-08-13T00:00:00Z", "url": "#", "isConcept": true,
+            "description": "Concept for a developer workflow that scans dependencies, secrets, and configuration risks before cloud deployments.",
+            "languages": [{"name": "GitHub Actions", "iconifyClass": "logos-github-actions"}, {"name": "Docker", "iconifyClass": "logos-docker-icon"}]
+          },
+          {
+            "id": "concept-14", "name": "MediScan - Fracture Detection Assistant", "createdAt": "2026-08-13T00:00:00Z", "url": "#", "isConcept": true,
+            "description": "Concept based on an academic AI imaging project: detect fracture patterns from X-rays and provide explainability heatmaps for clinical review.",
+            "languages": [{"name": "YOLO", "iconifyClass": "simple-icons:opencv"}, {"name": "FastAPI", "iconifyClass": "simple-icons:fastapi"}]
+          },
+          {
+            "id": "concept-15", "name": "Bilingo - AI Translation Workspace", "createdAt": "2026-08-13T00:00:00Z", "url": "#", "isConcept": true,
+            "description": "Concept based on an academic NLP project: a fast English-French translation workspace with quality checks and accessible browser delivery.",
+            "languages": [{"name": "Python", "iconifyClass": "logos-python"}, {"name": "Streamlit", "iconifyClass": "simple-icons:streamlit"}]
+          }
+    ]
+  }
+  

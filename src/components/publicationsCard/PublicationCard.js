@@ -14,7 +14,26 @@ export default function PublicationCard({ pub, theme }) {
       style={{ backgroundColor: theme.highlight }}
     >
       <Fade bottom duration={2000} distance="40px">
-        <div key={pub.id} onClick={() => openPubinNewTab(pub.url)}>
+        <div
+          key={pub.id}
+          className="publication-card-content"
+          role="button"
+          tabIndex={0}
+          onClick={() => openPubinNewTab(pub.document_href || pub.url)}
+          onKeyDown={(event) => {
+            if (event.key === "Enter" || event.key === " ") {
+              event.preventDefault();
+              openPubinNewTab(pub.document_href || pub.url);
+            }
+          }}
+        >
+          {pub.poster_href && (
+            <img
+              className="publication-poster"
+              src={pub.poster_href}
+              alt={`${pub.name} poster`}
+            />
+          )}
           <div className="publication-name-div">
             <p className="publication-name" style={{ color: theme.text }}>
               {pub.name}
@@ -23,6 +42,11 @@ export default function PublicationCard({ pub, theme }) {
           <p className="publication-description" style={{ color: theme.text }}>
             {pub.description}
           </p>
+          {pub.venue && (
+            <p className="publication-venue" style={{ color: theme.secondaryText }}>
+              {pub.venue}
+            </p>
+          )}
           <div className="publication-details">
             <p
               className="publication-creation-date subTitle"
@@ -31,6 +55,11 @@ export default function PublicationCard({ pub, theme }) {
               Published on {pub.createdAt.split("T")[0]}
             </p>
           </div>
+          {pub.document_label && (
+            <p className="publication-document-label" style={{ color: theme.secondaryText }}>
+              {pub.document_label}
+            </p>
+          )}
           {/* <div className="repo-stats">
           <div className="repo-left-stat">
             <span>
@@ -59,6 +88,12 @@ export default function PublicationCard({ pub, theme }) {
         </div> */}
         </div>
       </Fade>
+      {pub.preview_href && (
+        <div className="publication-preview" role="tooltip">
+          <img src={pub.preview_href} alt={`Preview of ${pub.name} publication`} />
+          <span>{pub.document_label || "Preview - click to open article"}</span>
+        </div>
+      )}
     </div>
   );
 }

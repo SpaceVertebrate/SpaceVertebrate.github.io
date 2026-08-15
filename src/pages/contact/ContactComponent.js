@@ -20,7 +20,11 @@ class Contact extends Component {
     const theme = this.props.theme;
     return (
       <div className="contact-main">
-        <Header theme={theme} />
+        <Header
+          theme={theme}
+          onToggle={this.props.onToggle}
+          isNightTheme={this.props.isNightTheme}
+        />
         <div className="basic-contact">
           <Fade bottom duration={1000} distance="40px">
             <div className="contact-heading-div">
@@ -69,7 +73,7 @@ class Contact extends Component {
                 </p>
                 <div className="blogsite-btn-div">
                   <Button
-                    text="Visit My Blogsite"
+                    text="Connect"
                     newTab={true}
                     href={blogSection.link}
                     theme={theme}
@@ -131,7 +135,7 @@ class Contact extends Component {
             </div>
           </Fade>
         </div>
-        <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
+        <Footer theme={this.props.theme} />
         <TopButton theme={this.props.theme} />
       </div>
     );

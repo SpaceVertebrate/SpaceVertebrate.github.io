@@ -60,8 +60,9 @@
   /* width: 100%; */
   border-radius: 0px 0px 7px 7px;
   padding: 10px;
-  justify-content: center;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   /* box-shadow: 5px 5px 5px #d3d3d3; */
 }
 
@@ -69,6 +70,8 @@
   padding-left: 10px;
   padding-right: 10px;
   font-family: "Google Sans Regular";
+  line-height: 1.55;
+  margin: 8px 0;
 }
 
 .card-body {
@@ -83,12 +86,43 @@
 
 .visit-btn {
   /* background-color: #6c63ff99; */
-  display: inline-block;
-  margin: 0px 10px 10px 0px;
-  padding: 10px;
+  display: block;
+  margin: 0;
+  padding: 10px 12px;
   border-radius: 7px;
   border: 0px;
-  float: right;
+  text-align: left;
+}
+
+.degree-actions {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.document-links {
+  width: 100%;
+  border-top: 1px solid #d9dbdf;
+  padding-top: 14px;
+}
+
+.document-links-title {
+  margin: 0 0 10px;
+  font-family: "Google Sans Medium";
+  font-size: 16px;
+}
+
+.document-link-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.document-link-grid a {
+  text-decoration: none;
 }
 
 .visit-btn:hover {
@@ -136,6 +170,10 @@
 
   .card-body {
     width: 100% !important;
+  }
+
+  .document-link-grid {
+    grid-template-columns: 1fr;
   }
 
   .card-title {

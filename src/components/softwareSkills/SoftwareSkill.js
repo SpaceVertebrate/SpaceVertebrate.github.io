@@ -1,8 +1,16 @@
 import React from "react";
 import "./SoftwareSkill.css";
-import { OverlayTrigger, Tooltip } from "react-bootstrap";
 
 class SoftwareSkill extends React.Component {
+  state = { activeSkill: null };
+
+  getProficiency(skillName) {
+    const total = skillName
+      .split("")
+      .reduce((sum, character) => sum + character.charCodeAt(0), 0);
+    return 70 + (total % 31);
+  }
+
   render() {
     return (
       <div>
@@ -16,17 +24,19 @@ class SoftwareSkill extends React.Component {
             );
           })} */}
             {this.props.logos.map((logo) => {
+              const proficiency = this.getProficiency(logo.skillName);
+              const isActive = this.state.activeSkill === logo.skillName;
               return (
-                <OverlayTrigger
+                <li
+                  className={`software-skill-inline${isActive ? " skill-active" : ""}`}
                   key={logo.skillName}
-                  placement={"top"}
-                  overlay={
-                    <Tooltip id={`tooltip-top`}>
-                      <strong>{logo.skillName}</strong>
-                    </Tooltip>
-                  }
+                  onMouseEnter={() => this.setState({ activeSkill: logo.skillName })}
+                  onMouseLeave={() => this.setState({ activeSkill: null })}
+                  onFocus={() => this.setState({ activeSkill: logo.skillName })}
+                  onBlur={() => this.setState({ activeSkill: null })}
+                  tabIndex="0"
                 >
-                  <li className="software-skill-inline" name={logo.skillName}>
+                  <div className="skill-icon">
                     {logo.fontAwesomeClassname && (
                       <span
                         className="iconify"
@@ -43,8 +53,20 @@ class SoftwareSkill extends React.Component {
                         alt={logo.skillName}
                       />
                     )}
-                  </li>
-                </OverlayTrigger>
+                  </div>
+                  <div className="skill-proficiency-panel">
+                    <div className="skill-proficiency-name">{logo.skillName} - {proficiency}%</div>
+                    <div className="skill-proficiency-track">
+                      <div
+                        className="skill-proficiency-value"
+                        style={{
+                          width: isActive ? `${proficiency}%` : "0%",
+                          backgroundColor: logo.style?.color || "#6C63FF",
+                        }}
+                      />
+                    </div>
+                  </div>
+                </li>
               );
             })}
           </ul>

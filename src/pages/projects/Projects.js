@@ -21,7 +21,11 @@ class Projects extends Component {
     const theme = this.props.theme;
     return (
       <div className="projects-main">
-        <Header theme={theme} />
+        <Header
+          theme={theme}
+          onToggle={this.props.onToggle}
+          isNightTheme={this.props.isNightTheme}
+        />
         <div className="basic-projects">
           <Fade bottom duration={2000} distance="40px">
             <div className="projects-heading-div">
@@ -86,13 +90,15 @@ class Projects extends Component {
           </div>
         ) : null}
 
-        <div className="repo-cards-div-main">
-          {publications.data.map((pub) => {
+        <div className="publication-cards-div">
+          {[...publications.data]
+            .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt))
+            .map((pub) => {
             return <PublicationCard pub={pub} theme={theme} />;
-          })}
+            })}
         </div>
 
-        <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
+        <Footer theme={this.props.theme} />
         <TopButton theme={this.props.theme} />
       </div>
     );

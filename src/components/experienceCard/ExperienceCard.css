@@ -138,6 +138,10 @@
 .experience-card-logo {
   width: 100px;
   height: 100px;
+  object-fit: contain;
+  box-sizing: border-box;
+  padding: 8px;
+  background: #fff;
   -webkit-box-shadow: 4px 3px 20px -2px grey;
   -moz-box-shadow: 4px 3px 20px -2px grey;
   box-shadow: 4px 3px 20px -2px grey;
@@ -194,6 +198,74 @@
   text-align: justify;
   margin-right: 20px;
   font-family: "Google Sans Regular";
+}
+
+.experience-card-description-list {
+  margin: 0 20px 0 10px;
+  padding-left: 20px;
+  font-family: "Google Sans Regular";
+  text-align: left;
+}
+
+.experience-card-description-list li {
+  margin-bottom: 8px;
+}
+
+.experience-reference-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 4px 10px 8px;
+}
+
+.experience-reference-links a {
+  border-radius: 6px;
+  padding: 8px 11px;
+  font-family: "Google Sans Regular";
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.experience-reference-link {
+  position: relative;
+}
+
+.reference-preview {
+  position: absolute;
+  left: 0;
+  bottom: calc(100% + 10px);
+  z-index: 300;
+  width: 250px;
+  padding: 8px;
+  border: 1px solid #d9dbdf;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(6px);
+  transition: opacity 160ms ease, transform 160ms ease;
+}
+
+.reference-preview img {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.reference-preview span {
+  display: block;
+  margin-top: 7px;
+  color: #343a40;
+  font-family: "Google Sans Regular";
+  font-size: 12px;
+  text-align: center;
+}
+
+.experience-reference-link:hover .reference-preview,
+.experience-reference-link:focus-within .reference-preview {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 

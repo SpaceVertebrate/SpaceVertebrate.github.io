@@ -2,83 +2,75 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Meet Solanki",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Software engineer who enjoys building intelligent applications and scalable systems, often powered by AI. I like turning complex problems into dependable technology that people can actually use, and occasionally teaching machines to be smarter than me.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Meet Solanki Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "https://spacevertebrate.github.io/",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  title: "Meet Solanki",
+  logo_name: "Meet Solanki",
+  nickname: "Space Vertebrate",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  resumeLink:
-    "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+    "Software engineer who enjoys building intelligent applications and scalable systems, often powered by AI. I like turning complex problems into dependable technology that people can actually use, and occasionally teaching machines to be smarter than me.",
+  resumeLink: "/documents/Meet_Resume.pdf",
+  portfolio_repository: "https://github.com/SpaceVertebrate",
+  githubProfile: "https://github.com/SpaceVertebrate",
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
+
 
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/SpaceVertebrate",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
+    link: "https://www.linkedin.com/in/meetpsolanki/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "YouTube",
-    link: "https://youtube.com/c/DevSense19",
+    link: "https://www.youtube.com/@meetsolanki5263",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
   {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:spacevertebrate@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "X-Twitter",
-    link: "https://twitter.com/ashutosh_1919",
+    link: "https://x.com/meetsolanki_in", //need to add twitter handle
     fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
     backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
   },
   {
     name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
+    link: "https://www.facebook.com/meet.solanki.921025?mibextid=LQQJ4d",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
+    link: "https://www.instagram.com/meetsolanki.in/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -87,32 +79,32 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
+      title: "Software Engineering",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "• Build reliable applications with Java, Python, C/C++, C#/.NET, JavaScript, and SQL.",
+        "• Apply object-oriented design, testing, debugging, Git workflows, and Agile delivery practices.",
+        "• Work across APIs, cloud services, databases, CI/CD pipelines, and production-focused development environments.",
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "Java",
+          fontAwesomeClassname: "devicon:java-wordmark",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
+          skillName: "C",
+          fontAwesomeClassname: "mdi:language-c",
           style: {
-            backgroundColor: "white",
+            backgroundColor: "transparent",
             color: "#D00000",
           },
         },
         {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          skillName: "JavaScript",
+          fontAwesomeClassname: "devicon:javascript",
           style: {
             backgroundColor: "transparent",
           },
@@ -126,8 +118,22 @@ const skills = {
           },
         },
         {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
+          skillName: "C++",
+          fontAwesomeClassname: "mdi:language-cpp",
+          style: {
+            backgroundColor: "transparent",
+            color: "#260bef",
+          },
+        },
+        {
+          skillName: "C#/.NET",
+          fontAwesomeClassname: "devicon:csharp",
+          style: { color: "#512BD4" },
+        },
+        {
+          skillName: "Git",
+          fontAwesomeClassname: "simple-icons:git",
+          style: { color: "#F05032" },
         },
       ],
     },
@@ -135,9 +141,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "• Build responsive frontend experiences with React, HTML, CSS, and JavaScript.",
+        "• Develop backend APIs and services with C#/.NET, Python, PHP, Node.js, Azure Functions, and REST patterns.",
+        "• Design data-backed applications with MySQL, SQL Server, Oracle, MongoDB, Cosmos DB, Redis, and Power BI.",
       ],
       softwareSkills: [
         {
@@ -154,13 +160,7 @@ const skills = {
             color: "#1572B6",
           },
         },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
+
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
@@ -190,20 +190,23 @@ const skills = {
             color: "#CB3837",
           },
         },
+
         {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
+          skillName: "MySQL",
+          fontAwesomeClassname: "logos:mysql",
           style: {
-            color: "#2C8EBB",
+            color: "#CB3837",
           },
         },
+
         {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
+          skillName: "ApacheDerby",
+          fontAwesomeClassname: "logos:apache",
           style: {
-            color: "#663399",
+            color: "#CB3837",
           },
         },
+
         {
           skillName: "Flutter",
           fontAwesomeClassname: "simple-icons:flutter",
@@ -211,21 +214,46 @@ const skills = {
             color: "#02569B",
           },
         },
+        {
+          skillName: "PHP",
+          fontAwesomeClassname: "simple-icons:php",
+          style: { color: "#777BB4" },
+        },
+        {
+          skillName: "Redis",
+          fontAwesomeClassname: "simple-icons:redis",
+          style: { color: "#DC382D" },
+        },
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "Artificial Intelligence",
+      fileName: "ArtificialIntelligenceImg",
+      skills: [
+        "• Build machine-learning and computer-vision workflows with Python, PyTorch, OpenCV, YOLO, and CNNs.",
+        "• Work with natural-language processing, named-entity recognition, LLMs, and Hugging Face Transformers.",
+        "• Prepare data, evaluate models, and deliver AI-powered solutions through practical APIs and cloud-based workflows.",
+      ],
+      softwareSkills: [
+        { skillName: "Python", fontAwesomeClassname: "ion-logo-python", style: { color: "#3776AB" } },
+        { skillName: "PyTorch", fontAwesomeClassname: "simple-icons:pytorch", style: { color: "#EE4C2C" } },
+        { skillName: "OpenCV", fontAwesomeClassname: "simple-icons:opencv", style: { color: "#5C3EE8" } },
+        { skillName: "Hugging Face", fontAwesomeClassname: "simple-icons:huggingface", style: { color: "#FFD21E" } },
+      ],
+    },
+    {
+      title: "Network and Security",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "• Designing and managing secure network infrastructures for both on-premises and cloud environments.",
+        "• Configuring and maintaining firewalls, VPNs, and IDS/IPS to safeguard organizational data.",
+        "• Implementing encryption protocols and secure communication channels to protect sensitive information.",
+        "• Developing and executing incident response plans to mitigate and resolve security breaches promptly.",
       ],
       softwareSkills: [
         {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
+          skillName: "WireShark",
+          fontAwesomeClassname: "simple-icons:wireshark",
           style: {
             color: "#4285F4",
           },
@@ -245,38 +273,24 @@ const skills = {
           },
         },
         {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
+          skillName: "Cisco",
+          fontAwesomeClassname: "cib:cisco",
           style: {
             color: "#FFCA28",
           },
         },
         {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
+          skillName: "google cloud security",
+          fontAwesomeClassname: "logos:google-cloud",
           style: {
             color: "#336791",
           },
         },
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
+          skillName: "Kali-Linux",
+          fontAwesomeClassname: "skill-icons:kali-light",
           style: {
             color: "#47A248",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
           },
         },
       ],
@@ -285,9 +299,9 @@ const skills = {
       title: "UI/UX Design",
       fileName: "DesignImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "• Designing highly attractive user interface for mobile and web applications",
+        "• Customizing logo designs and building logos from scratch",
+        "• Creating the flow of application functionalities to optimize user experience",
       ],
       softwareSkills: [
         {
@@ -332,7 +346,7 @@ const competitiveSites = {
       style: {
         color: "#F79F1B",
       },
-      profileLink: "https://leetcode.com/layman_brother/",
+      profileLink: "https://leetcode.com/u/SpaceVertebrate/ ",
     },
     {
       siteName: "HackerRank",
@@ -340,39 +354,7 @@ const competitiveSites = {
       style: {
         color: "#2EC866",
       },
-      profileLink: "https://www.hackerrank.com/layman_brother",
-    },
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "http://codeforces.com/profile/layman_brother",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/laymanbrother",
+      profileLink: "https://www.hackerrank.com/profile/spacevertebrate",
     },
   ],
 };
@@ -380,37 +362,47 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - 2020",
+      title: "University of Windsor",
+      subtitle: "Bachelor of Science (Honours) in Computer Science - Software Engineering Co-operative Education",
+      logo_path: "uwin.png",
+      alt_name: "University of Windsor",
+      duration: "Jan 2023 - Expected Apr 2027",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "• Developed practical software-engineering experience through collaborative projects, technical labs, multiple co-op work terms, and a 98% project-management capstone course.",
+        "• Maintained a 3.7 / 4.0 GPA with Dean's Honour Roll recognition in 2023-2024 and 2024-2025, reflecting consistent academic performance.",
+        "• Built broad knowledge across artificial intelligence, secure software development, operating systems, cloud and data systems, algorithms, databases, networks, web development, and object-oriented design through coursework and hands-on technical work.",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "http://uwindsor.ca",
+      certificate_links: [
+        {
+          label: "Dean's Honour Roll Certificate (2023-2024)",
+          href: "/documents/DeanHonourRoll-Certificate.pdf",
+        },
+        {
+          label: "Dean's Honour Roll Certificate (2024-2025)",
+          href: "/documents/DeanHonourRoll2-Certificate.pdf",
+        },
+      ],
     },
     {
-      title: "Indiana University Bloomington",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "iu_logo.png",
-      alt_name: "Indiana University Bloomington",
-      duration: "2021 - 2023",
+      title: "Gujarat Secondary and Higher Secondary Education Board",
+      subtitle: "High School",
+      logo_path: "gseb.png",
+      alt_name: "Gujarat Secondary and Higher Secondary Education Board",
+      duration: "2020 - 2022",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+        "• Majored in Physics, Chemistry, Mathematics, English, and Computer Science, fostering a solid foundation in analytical and creative fields.",
+        "• Engaged in advanced STEM courses and enhanced critical thinking skills through extensive problem-solving experiences.",
+        "• Actively participated in extracurricular activities including science fairs and debate clubs, demonstrating a commitment to continuous learning and community involvement.",
       ],
-      website_link: "https://www.indiana.edu/",
+      website_link: "https://website.gseb.org/",
     },
   ],
 };
-
+//certifications
 const certifications = {
   certifications: [
-    {
+    /*{
       title: "Machine Learning",
       subtitle: "- Andrew Ng",
       logo_path: "stanford_logo.png",
@@ -518,15 +510,16 @@ const certifications = {
       alt_name: "GCP",
       color_code: "#4285F499",
     },
+    */
   ],
 };
 
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Software Engineering, AI, Data, and Teaching",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I build full-stack, data, and AI-driven software systems, with experience spanning Azure IoT analytics, research databases, machine learning, business intelligence, and university teaching.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -534,149 +527,183 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Machine Learning Engineer",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "June 2023 - Present",
-          location: "San Jose, CA, USA",
-          description:
-            "Improving ads ranking models on the core TikTok product. Experience working on modeling two-tower architectures like DeepFM, Wide & deep learning, etc. Working on Large Language Models (LLM) pretraining and Large Multi-modal Model (LMM) finetuning strategies.",
+          title: "Software Developer (Co-op)",
+          company: "CenterLine",
+          company_url: "https://www.cntrline.com/",
+          logo_path: "centerline-logo.svg",
+          duration: "Jan 2026 - Present",
+          location: "Windsor, ON",
+          description: [
+            "Develop full-stack features for an Azure-based IoT analytics web application.",
+            "Build custom C#/.NET APIs, React web apps, Azure Function Apps, and business logic libraries with Redis caching to optimize data queries.",
+            "Process and analyze IoT telemetry using Event Hubs, Azure Data Explorer, and KQL.",
+            "Integrate Azure SQL, Cosmos DB, and ADX across relational, NoSQL, and analytical workloads.",
+            "Train anomaly-detection models in Azure ML on 100,000+ IoT records, achieving 92% accuracy.",
+            "Support secure deployments using Azure DevOps, CI/CD, VNets, and private endpoints.",
+          ],
           color: "#000000",
         },
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
-          location: "Hyderabad, Telangana",
-          description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
-          color: "#0879bf",
+          title: "Research Database Programmer",
+          company: "University of Windsor",
+          company_url: "https://www.uwindsor.ca/",
+          logo_path: "uwin.png",
+          duration: "Sep 2025 - Dec 2025",
+          location: "Windsor, ON",
+          description: [
+            "Develop research-oriented database tools and scripts using MySQL, Oracle, Python, and PHP.",
+            "Set up controlled test environments to evaluate query execution and indexing performance.",
+            "Create preprocessing and data-mining workflows with SQL, Python, and WEKA for analysis.",
+            "Support MSc and PhD researchers by dry running algorithms and validating experimental outcomes.",
+            "Document experiment setups, findings, and procedures to ensure reproducible research workflows.",
+          ],
+          reference_links: [
+            {
+              label: "Letter of Recommendation - Dr. Christie Ezeife (Professor)",
+              href: "/documents/University-of-Windsor-Reference-Database-Research.pdf",
+              preview_href: "/documents/preview-database-reference-1.png",
+            },
+          ],
+          color: "#005596",
         },
         {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
-          description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-          color: "#9b1578",
+          title: "Artificial Intelligence Intern",
+          company: "Glendor Inc.",
+          company_url: "",
+          logo_path: "glendor-logo.jpeg",
+          duration: "May 2025 - Aug 2025",
+          location: "Remote, United States",
+          description: [
+            "Developed deep learning pipelines for facial and mask detection using CNNs, PyTorch, and OpenCV, achieving about 95% accuracy on large datasets.",
+            "Built an NLP/LLM pipeline for PHI extraction and redaction, achieving 98% precision and recall for healthcare clients.",
+            "Fine-tuned Hugging Face Transformer models to classify sensitive health text, improving data-security workflows and model robustness.",
+            "Collaborated on real-time visual object extraction methods, enhancing processing efficiency for production deployment.",
+          ],
+          reference_links: [
+            {
+              label: "Final Performance Evaluation - Julia Komissarchik (Placement Supervisor)",
+              href: "/documents/Glendor-Final-Evaluation.pdf",
+              preview_href: "/documents/preview-glendor-final-evaluation-1.png",
+            },
+          ],
+          color: "#6A1B9A",
         },
         {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
-          description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
+          title: "Data Specialist Assistant (Co-op)",
+          company: "South Essex Community Council",
+          company_url: "https://secc.on.ca/",
+          logo_path: "secc-logo.png",
+          duration: "Jan 2025 - Apr 2025",
+          location: "Leamington, ON",
+          description: [
+            "Built and optimized CRM modules in PHP and MySQL, reducing report generation time by 40%.",
+            "Automated ETL workflows with Power BI and Power Query, saving 15+ hours per month for multiple departments.",
+            "Designed interactive Power BI dashboards used by leadership for operational decision-making.",
+            "Implemented OTP authentication and encryption for secure cloud-based CRM access.",
+            "Developed an internal address search tool replacing third-party APIs, reducing operational costs.",
+          ],
+          reference_links: [
+            {
+              label: "Letter of Recommendation - Luis Palacios (Data Specialist Supervisor)",
+              href: "/documents/SECC-Recommendation-Letter.pdf",
+              preview_href: "/documents/preview-secc-recommendation-1.png",
+            },
+          ],
+          color: "#00796B",
         },
-      ],
-    },
-    {
-      title: "Internships",
-      experiences: [
         {
-          title: "Machine Learning Intern",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "May 2022 - Aug 2022",
-          location: "San Francisco, USA",
-          description:
-            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
+          title: "Teaching Assistant",
+          company: "University of Windsor",
+          company_url: "https://www.uwindsor.ca/",
+          logo_path: "uwin.png",
+          duration: "Sep 2024 - Dec 2025",
+          location: "Windsor, ON",
+          description: [
+            "Supported instruction across Systems Programming, OOSAD, Database Systems, Web Development, and Artificial Intelligence courses.",
+            "Delivered lab sessions for 40+ students, teaching C in UNIX, SQL and schema design, OOP, UML modeling, and full-stack web fundamentals.",
+            "Assisted students with AI fundamentals including search algorithms, Python ML workflows, and introductory PyTorch model development.",
+            "Graded 200+ assignments, tests, and projects while ensuring consistency and academic integrity.",
+            "Contributed to faculty research initiatives through experimentation, debugging, and technical analysis.",
+          ],
+          reference_links: [
+            {
+              label: "Letter of Recommendation - Dr. Muhammad Asaduzzaman (Professor)",
+              href: "/documents/University-of-Windsor-Reference-Teaching-Assistant.pdf",
+              preview_href: "/documents/preview-teaching-reference-1.png",
+            },
+          ],
+          color: "#005596",
+        },
+        {
+          title: "Data Entry Specialist",
+          company: "Central Transport",
+          company_url: "https://www.centraltransport.com/",
+          logo_path: "CT.png",
+          duration: "Jan 2023 - Dec 2024",
+          location: "Windsor, ON, Canada",
+          description: [
+            "Maintained a typing speed of 70 words per minute with high accuracy while managing 300+ billings daily.",
+            "Audited 500+ invoices daily within the .NET Framework and helped resolve server issues with team leaders.",
+            "Handled key accounts for Amazon, Lowe's, Home Depot, Chrysler, Ford, and General Motors while maintaining data integrity.",
+          ],
           color: "#000000",
         },
-        {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
-          description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-          color: "#ee3c26",
-        },
-        {
-          title: "Data Science Intern",
-          company: "Intel Indexer LLC",
-          company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
-          location: "Work From Home",
-          description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-          color: "#0071C5",
-        },
       ],
     },
+
+    /*title: "Internships",
+    experiences: [
+      {
+        title: "Machine Learning Intern",
+        company: "TikTok Inc.",
+        company_url: "https://www.tiktok.com/en/",
+        logo_path: "tiktok_logo.png",
+        duration: "May 2022 - Aug 2022",
+        location: "San Francisco, USA",
+        description:
+          "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
+        color: "#000000",
+      },
+      {
+        title: "Data Science Research Intern",
+        company: "Delhivery Pvt. Ltd.",
+        company_url: "https://www.delhivery.com/",
+        logo_path: "delhivery_logo.png",
+        duration: "May 2019 - Sept 2019",
+        location: "Gurgaon, Haryana",
+        description:
+          "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
+        color: "#ee3c26",
+      },
+      {
+        title: "Data Science Intern",
+        company: "Intel Indexer LLC",
+        company_url:
+          "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
+        logo_path: "intel_logo.jpg",
+        duration: "Nov 2018 - Dec 2018",
+        location: "Work From Home",
+        description:
+          "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
+        color: "#0071C5",
+      },
+    ],
+  },*/
+
     {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
+          title: "Member",
+          company: "Computer Science Society",
+          company_url: "https://css.uwindsor.ca/",
+          logo_path: "CSS.png",
+          duration: "June 2023 - Present",
+          location: "Windsor, ON, Canada",
           description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
+            "As an active member of the Computer Science Society at the University of Windsor, I regularly assist juniors with their courses through our Discord channel and play a key role in organizing and contributing to various CSS events, including bowling nights, chess competitions, coding tests, and gaming weeks.",
           color: "#4285F4",
-        },
-        {
-          title: "Microsoft Student Partner",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-          color: "#D83B01",
-        },
-        {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
-          company_url: "https://www.mozilla.org/",
-          logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-          color: "#000000",
-        },
-        {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
-          company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-          color: "#0C9D58",
-        },
-        {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
-          location: "Work From Home",
-          description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-          color: "#181717",
-        },
+        }
       ],
     },
   ],
@@ -686,7 +713,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "A mix of completed work and clearly labelled technical concepts spanning full-stack applications, artificial intelligence, data systems, cloud services, security, and business automation.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -699,26 +726,29 @@ const publicationsHeader = {
 const publications = {
   data: [
     {
-      id: "neuro-symbolic-sudoku-solver",
-      name: "Neuro-Symbolic Sudoku Solver",
-      createdAt: "2023-07-02T00:00:00Z",
-      description: "Paper published in KDD KiML 2023",
-      url: "https://arxiv.org/abs/2307.00653",
+      "id": "812707500",
+      "name": "AnatomyCPU",
+      "createdAt": "2024-06-09T16:48:52Z",
+      "description": "An educational project to visualize and understand the working principles of a Central Processing Unit (CPU) through interactive models.",
+      "url": "https://github.com/SpaceVertebrate/AnatomyCPU",
+      "document_href": "/documents/AnatomyCPU-Technical-Article.pdf",
+      "preview_href": "/documents/preview-anatomycpu-technical-article-1.png",
+      "poster_href": "/documents/AnatomyCPU-Diagram.png",
+      "document_label": "Technical article preview - click to open"
     },
     {
-      id: "mdp-diffusion",
-      name: "MDP-Diffusion",
-      createdAt: "2023-09-19T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/mdp-diffusion/",
-    },
-    {
-      id: "consistency-models",
-      name: "Consistency Models",
-      createdAt: "2023-10-12T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/consistency-models/",
-    },
+      "id": "research-article-sql-nosql",
+      "name": "Performance, Patterns, and Path from SQL to NoSQL",
+      "createdAt": "2025-12-12T00:00:00Z",
+      "description": "Research comparing row-oriented SQL, column-oriented SQL, and MongoDB performance across transactional and analytical workloads, with Apriori-based pattern mining.",
+      "venue": "Poster presented at Ontario DataBase Day (OnDBD) 2025, hosted by Western University in London, Ontario.",
+      "document_href": "/documents/Research-Article.pdf",
+      "preview_href": "/documents/preview-research-article-1.png",
+      "poster_href": "/documents/Research-Article-Poster.png",
+      "document_label": "Final report preview - click to open"
+    }
+
+
   ],
 };
 
@@ -726,31 +756,31 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "avatar.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "Software developer focused on full-stack applications, AI and machine learning, data engineering, cloud services, and scalable database systems. Feel free to reach out about software, data, or AI opportunities.",
   },
   blogSection: {
-    title: "Blogs",
+    title: "LinkedIn",
     subtitle:
-      "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
-    link: "https://blogs.ashutoshhathidara.com/",
+      "Connect with me for professional updates and opportunities.",
+    link: "https://www.linkedin.com/in/meetpsolanki/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
-    title: "Address",
-    subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
-    locality: "San Jose",
-    country: "USA",
-    region: "California",
-    postalCode: "95129",
-    streetAddress: "Saratoga Avenue",
+    title: "Location",
+    subtitle: "Windsor, Ontario, Canada",
+    locality: "Windsor",
+    country: "Canada",
+    region: "Ontario",
+    postalCode: "",
+    streetAddress: "",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
+    location_map_link: "https://www.google.com/maps/place/Windsor,+ON",
   },
   phoneSection: {
-    title: "",
-    subtitle: "",
+    title: "Phone",
+    subtitle: "+1-226-961-3375",
   },
 };
 

@@ -4,6 +4,7 @@ import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
 import { greeting, settings } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
+import ToggleSwitch from "../footer/ToggleSwitch";
 
 const onMouseEnter = (event, color) => {
   const el = event.target;
@@ -32,9 +33,21 @@ class Header extends Component {
               <span style={{ color: theme.text }}>/&gt;</span>
             </NavLink>
             <input className="menu-btn" type="checkbox" id="menu-btn" />
-            <label className="menu-icon" htmlFor="menu-btn">
-              <span className="navicon"></span>
-            </label>
+            <div className="header-controls">
+              <div className="theme-toggle-topbar">
+                <ToggleSwitch
+                  theme={theme}
+                  isNightTheme={this.props.isNightTheme}
+                  onToggle={this.props.onToggle}
+                />
+              </div>
+              <label className="menu-icon" htmlFor="menu-btn">
+                <span
+                  className="navicon"
+                  style={{ background: theme.text, color: theme.text }}
+                ></span>
+              </label>
+            </div>
             <ul className="menu" style={{ backgroundColor: theme.body }}>
               <li>
                 <NavLink
@@ -82,18 +95,6 @@ class Header extends Component {
                   onMouseOut={(event) => onMouseOut(event)}
                 >
                   Projects
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/opensource"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
-                >
-                  Open Source
                 </NavLink>
               </li>
               <li>

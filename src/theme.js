@@ -195,4 +195,32 @@ export const materialTealTheme = {
   splashBg: "#05505E",
 };
 
-export const chosenTheme = blueTheme;
+export const whiteSpectrumTheme = {
+  body: "#FFFFFF",
+  text: "#1F2937",
+  expTxtColor: "#374151",
+  highlight: "#F3F4F6",
+  dark: "#111827",
+  secondaryText: "#6B7280",
+  imageHighlight: "#9CA3AF",
+  compImgHighlight: "#E5E7EB",
+  jacketColor: "#6B7280",
+  headerColor: "#D1D5DB88",
+  splashBg: "#4B5563",
+};
+
+export const whiteSpectrumNightTheme = {
+  body: "#111827",
+  text: "#F9FAFB",
+  expTxtColor: "#E5E7EB",
+  highlight: "#1F2937",
+  dark: "#030712",
+  secondaryText: "#9CA3AF",
+  imageHighlight: "#6B7280",
+  compImgHighlight: "#374151",
+  jacketColor: "#4B5563",
+  headerColor: "#6B728066",
+  splashBg: "#111827",
+};
+
+export const chosenTheme = whiteSpectrumTheme;

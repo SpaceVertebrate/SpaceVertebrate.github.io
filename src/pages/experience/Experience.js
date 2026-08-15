@@ -149,7 +149,11 @@ class Experience extends Component {
     const theme = this.props.theme;
     return (
       <div className="experience-main">
-        <Header theme={theme} />
+        <Header
+          theme={theme}
+          onToggle={this.props.onToggle}
+          isNightTheme={this.props.isNightTheme}
+        />
         <div className="basic-experience">
           <Fade bottom duration={2000} distance="40px">
             <div className="experience-heading-div">
@@ -184,7 +188,7 @@ class Experience extends Component {
           </Fade>
         </div>
         <ExperienceAccordion sections={experience["sections"]} theme={theme} />
-        <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
+        <Footer theme={this.props.theme} />
         <TopButton theme={this.props.theme} />
       </div>
     );
